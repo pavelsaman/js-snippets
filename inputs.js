@@ -1,7 +1,6 @@
 
 (function() {
     var inputs = document.querySelectorAll('input');
-    var fields = [];
 
     inputs.forEach((input, index) => {
         console.group(index);
@@ -25,8 +24,5 @@
         });
         
         console.groupEnd();
-        fields = [];
     });
-
 })();
-
